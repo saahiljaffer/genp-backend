@@ -5,12 +5,16 @@ CairoSVG==2.5.2
 cffi==1.14.6
 cssselect2==0.4.1
 defusedxml==0.7.1
+dj-database-url==0.5.0
 Django==3.2.7
 django-cors-headers==3.8.0
+django-on-heroku==1.1.2
 django-weasyprint==1.1.0.post1
 fonttools==4.26.2
+gunicorn==20.1.0
 html5lib==1.1
 Pillow==8.3.2
+psycopg2-binary==2.9.1
 pycparser==2.20
 pydyf==0.1.1
 pyphen==0.11.0
@@ -20,4 +24,5 @@ sqlparse==0.4.1
 tinycss2==1.1.0
 weasyprint==53.2
 webencodings==0.5.1
+whitenoise==5.3.0
 zopfli==0.1.8
