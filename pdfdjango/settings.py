@@ -74,7 +74,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'pdfdjango.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://example.com",
+    "https://pdf.saahiljaffer.com",
     "https://sub.example.com",
     "http://localhost:8080",
     "http://localhost:3000",
@@ -131,7 +131,6 @@ django_on_heroku.settings(locals())
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
