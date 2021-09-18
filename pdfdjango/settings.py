@@ -74,8 +74,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'pdfdjango.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://pdf.saahiljaffer.com",
-    "https://sub.example.com",
+    "https://genp.saahiljaffer.com",
     "http://localhost:8080",
     "http://localhost:3000",
     "http://127.0.0.1:9000",
